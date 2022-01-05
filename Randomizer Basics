@@ -1,0 +1,6 @@
+import random 
+
+color = [ Red, Blue, Orange, Grey, Magenta]
+
+results = random.choices(colors, k=25)
+print (results)
